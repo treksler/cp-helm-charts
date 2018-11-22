@@ -45,6 +45,7 @@ updateStrategy: RollingUpdate
 tickTime: 2000
 syncLimit: 5
 initLimit: 10
+cnxTimeout: 5
 maxClientCnxns: 60
 autoPurgeSnapRetainCount: 3
 autoPurgePurgeInterval: 24
