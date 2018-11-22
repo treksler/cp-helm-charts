@@ -98,6 +98,8 @@ spec:
           value: "{{ .Values.initLimit }}"
         - name : ZOOKEEPER_MAX_CLIENT_CNXNS
           value: "{{ .Values.maxClientCnxns }}"
+        - name : ZOOKEEPER_CNX_TIMEOUT
+          value: "{{ .Values.cnxTimeout }}"
         - name : ZOOKEEPER_AUTOPURGE_SNAP_RETAIN_COUNT
           value: "{{ .Values.autoPurgeSnapRetainCount}}"
         - name : ZOOKEEPER_AUTOPURGE_PURGE_INTERVAL
